@@ -8,8 +8,14 @@
     <link rel="stylesheet" href="index.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>MIHIR | DEVELOPER</title>
+    
   </head>
-  <body class="text-white bg-[#0a192f] overflow-x-hidden scroll-smooth">
+  <body class=" text-white bg-[#0a192f] overflow-x-hidden scroll-smooth">
+    <div id="loader" class=" grid place-content-center h-[100vh]">
+      <img class=" w-[15rem] animate-bounce"   src="Untitled.png"  alt="">
+      <!-- <h1 class="absolute top-[50%] left-[50%] text-[4rem] font-bold -translate-y-[45%] -translate-x-[50%] text-[#64ffda]">M</h1> -->
+    </div>
+    <div id="content" class="hidden">
     <div id="menu-sm" class="hidden">
       <div
         data-aos-once="false" data-aos="fade-left"
@@ -41,6 +47,7 @@
           ><span class="text-[#64ffda]">4.</span> Contact</a
         >
         <a
+        href="Mihir_parmar.pdf"
           class="border-[1px] border-[#64ffda] w-[7.2rem] inline-block p-[5px] px-[10px] rounded-lg flex items-center hover:bg-[#64ffda] hover:text-[black] hover:font-bold"
         >
           Resume
@@ -61,16 +68,16 @@
     </div>
     <div class="bg-[#0a192f] sticky top-0 z-10">
       <div
-        class="flex justify-between items-center p-[1rem] px-[2rem]"
+        class="flex justify-between items-center md:p-[1rem] px-[2rem]"
         style="box-shadow: hsla(217, 65%, 8%, 0.502) 0px 5px 15px"
       >
-        <a
-        href="#home"
+        <a  
+          href="#"
           data-aos-once="false" data-aos="fade-do"
           data-aos-duration="1100"
-          class="border border-[5px] font-bold border-white inline-block rounded-[100rem] p-[1em]         cursor-pointer"
+          class="         cursor-pointer"
         >
-          M
+          <img class="w-[5rem]" src="Untitled.png" alt="">
         </a>
         <div>
           <div
@@ -113,8 +120,7 @@
               <span class="text-[#64ffda]">4.</span> Contact
             </a>
             <a
-              
-              target="_blank"
+               href="Mihir_parmar.pdf"               
               class="border-[1px] border-[#64ffda] inline-block p-[5px] px-[10px] rounded-lg flex items-center hover:bg-[#133040]"
               data-aos-once="false" data-aos="fade-down"
               data-aos-duration="1100"
@@ -144,8 +150,8 @@
         </div>
       </div>
     </div>
-    <section id="home" class="md:px-[12vw] px-[2rem] pt-[3rem]">
-      <div class="flex flex-col md:leading-[5.5rem] justify-center md:pt-[5rem] pt-[2rem]">
+    <section id="home" class="md:px-[12vw] px-[2rem] ">
+      <div class="flex flex-col md:leading-[5.5rem] justify-center md:pt-[5rem] pt-[1.8rem]">
         <div data-aos-once="false" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
           <h3
             class="text-[#64ffda] md:text-[1.5rem] text-sm px-[5px] md:leading-[4rem] font-semibold"
@@ -368,7 +374,7 @@
         </h1>
         <div class="md:pt-[5rem]">
           <div class="flex md:flex-row md:flex-row flex-col-reverse  items-center p-[1rem]  md:space-x-5 md:text-right text-left w-[100%]  ">
-            <div class="md:inline-block  "><img class="md:pt-[0] mt-[2rem] rounded-lg drop-shadow-lg " src="react-crypto-market.png" alt=""></div>
+            <div class="md:inline-block  " data-aos="flip-right" data-aos-delay="200"  data-aos-delay="200"><img class="md:pt-[0] mt-[2rem] rounded-lg drop-shadow-lg " src="react-crypto-market.png" alt=""></div>
             <div class="md:p-[2rem] md:pt-[0] px-[0.5rem] pt-[2rem]  backdrop-blur-xl bg-[#0a1a30]/30" >  
             <h4 class="text-[#64ffda] text-sm">Featured Project</h4>
             <h2 class="text-3xl text-[#ccd6f6] font-bold hover:text-[#64ffda] text-sm mb-[1.2rem]">Crypto Market </h2>
@@ -419,15 +425,15 @@
               
             </div>
             </div>
-            <div class="md:inline-block "><img class="md:pt-[0] mt-[2rem] rounded-lg drop-shadow-lg" src="react-django-notes.png" alt=""></div>
+            <div class="md:inline-block " data-aos="flip-right" data-aos-delay="200"><img class="md:pt-[0] mt-[2rem] rounded-lg drop-shadow-lg" src="react-django-notes.png" alt=""></div>
 
           </div>
           <div class="flex md:flex-row md:flex-row flex-col-reverse  items-center p-[1rem] md:pt-[10rem]  md:space-x-5 md:text-right text-left  ">
-            <div class="md:inline-block "><img class="md:pt-[0] mt-[2rem] rounded-lg drop-shadow-lg" src="django-studybuds.png" alt=""></div>
+            <div class="md:inline-block " data-aos="flip-right" data-aos-delay="200"><img class="md:pt-[0] mt-[2rem] rounded-lg drop-shadow-lg" src="django-studybuds.png" alt=""></div>
             <div class="md:p-[2rem] md:pt-[0] px-[0.5rem] pt-[2rem]  backdrop-blur-xl bg-[#0a1a30]/30" > 
             <h4 class="text-[#64ffda] text-sm">Featured Project</h4>
             <h2 class="text-3xl text-[#ccd6f6] font-bold hover:text-[#64ffda] text-sm mb-[1.2rem]">Studybuddy</h2>
-            <p class="text-[#8892b0] text-sm md:bg-[#112240] md:p-[0.5rem] md:px-[2rem] drop-shadow-lg rounded-md">Studybuddy is django app for create Stuudy room for the discussion regarding topic where user can create his account and join ther discussion.In this application user can create, edit, delete his Room.</p>
+            <p class="text-[#8892b0] text-sm md:bg-[#112240] md:p-[0.5rem] md:px-[2rem] drop-shadow-lg rounded-md">Studybuddy is django app for create Study room for the discussion regarding topic where user can create account and join discussion.In this application user can create, edit, delete Room. For participate in discussion user need to authenticate with login.</p>
             <div class="text-[#8892b0] mt-[2rem] text-sm flex md:flex-row-reverse ">
               <a class="pl-[1rem] hover:text-[#64ffda]" href="https://github.com/mihir237"
               ><svg
@@ -601,10 +607,9 @@
         </span>
       </p>
     </div>
+    </div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="index.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
