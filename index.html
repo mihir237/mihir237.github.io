@@ -12,7 +12,7 @@
   <link rel="icon" type="image/x-icon" href="Untitled.png">
     
   </head>
-  <body class=" text-white bg-[#0a192f] overflow-x-hidden scroll-smooth">
+  <body class=" text-[#ccd6f6] bg-[#0a192f] overflow-x-hidden scroll-smooth">
     <div id="loader" class=" grid place-content-center h-[100vh]">
       <img class=" w-[8rem] animate-bounce"   src="Untitled.png"  alt="">
       <!-- <h1 class="absolute top-[50%] left-[50%] text-[4rem] font-bold -translate-y-[45%] -translate-x-[50%] text-[#64ffda]">M</h1> -->
@@ -40,7 +40,7 @@
           ><span class="text-[#64ffda]">1.</span> About</a
         >
         <a href="#skill" onclick="showMenu()"
-          ><span class="text-[#64ffda]">2.</span> Skill</a
+          ><span class="text-[#64ffda]">2.</span> Experience</a
         >
         <a href="#work" onclick="showMenu()"
           ><span class="text-[#64ffda]">3.</span> Project</a
@@ -81,9 +81,9 @@
         >
           <img class="w-[5rem]" src="Untitled.png" alt="">
         </a>
-        <div>
+        <div class="flex items-center">
           <div
-            class="md:flex hidden space-x-5 text-[#ccd6f6] uppercase font-semibold items-center"
+            class="md:flex hidden space-x-5 text-[#ccd6f6] uppercase font-semibold items-center flex"
           >
             <a
               href="#about"
@@ -101,7 +101,7 @@
               data-aos-duration="1100"
               data-aos-delay="300"
             >
-              <span class="text-[#64ffda]">2.</span> Skill
+              <span class="text-[#64ffda]">2.</span> Experience
             </a>
             <a
               href="#work"
@@ -143,6 +143,27 @@
               </svg>
             </a>
           </div>
+          <a
+               href="Mihir_parmar_resume.pdf"               
+              class="border-[1px] border-[#64ffda] inline-block p-[2px] px-[6px] mx-2 rounded-lg flex items-center hover:bg-[#133040]"
+              data-aos-once="false" data-aos="fade-down"
+              data-aos-duration="1100"
+              data-aos-delay="550"
+            >
+              Resume
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-file-earmark-text-fill text-[#64ffda] pl-[5px]"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"
+                />
+              </svg>
+            </a>
           <div onclick="showMenu()">
             <div class="md:hidden space-y-2">
               <span class="block w-8 h-0.5 bg-gray-200"></span>
@@ -163,14 +184,14 @@
         </div>
         <div id="name" data-aos-once="false" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">
           <h1 class=" text-[#ccd6f6] md:text-[5rem] text-[2.5rem] font-bold">
-           <span class="">M</span>ihir Parmar
+           <span class="">M</span>ihir Parmar,
           </h1>
         </div>
         <div data-aos-once="false" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200">
           <h1
-            class="text-[#8892b0] md:text-[3rem] md:leading-[5.5rem] text-3xl font-bold"
+            class="text-[#8892b0] md:text-[3rem] md:leading-[2.5rem] text-3xl font-bold"
           >
-          I help computers do more things better for humans.          </h1>
+          a passionate full-stack developer with a mission to make computers do more for humans.          </h1>
         </div>
         <p
           class="text-[#8892b0] md:text-[1rem] md:leading-6 py-[1rem] md:w-[45%]"
@@ -178,9 +199,7 @@
           data-aos-duration="1100"
           data-aos-delay="100"
         >
-          I’m a full stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          learning and building things using new technology.
+        I specialize in building exceptional digital experiences while also dabbling in design. My journey into web development began in 2019 when I crafted my personal portfolio, which fueled my love for solving problems and creating captivating designs.
         </p>
       </div>
       <a
@@ -210,20 +229,9 @@
         >
           <div class="col-span-3 md:leading-[1.6rem] text-lg text-[#8892b0]">
             <p class="pb-[1rem]">
-              Hello! My name is Mihir and I enjoy creating things that live
-              on the internet. My interest in web development started back in
-              2019 when I decided to buid my personal portfolio taught me a lot about
-              HTML & CSS!
-            </p>
-            <p class="pb-[1rem]">
-              I love solving problems and Design things. Also, I like pushing myself and taking up new challenges.
-            </p>
-         
-            <p class="pb-[1rem]">
-              Here are a few technologies I’ve been working with recently:
-            </p>
+              My tech stack includes            </p>
             <ul
-              class="grid md:grid-cols-2 grid-cols-1 grid-rows-4 gap-[10px] w-[70%] ml-[1rem] md:pt-[2rem] text-[1rem] text-[#ccd6f6] font-bold"
+              class="grid md:grid-cols-1 grid-cols-1 grid-rows-4 gap-[10px] w-[70%] ml-[1rem] md:p-[2rem] text-[1rem] text-[#ccd6f6] font-bold"
             >
               <li><span class="text-[#64ffda]">▹</span> JavaScript</li>
               <li><span class="text-[#64ffda]">▹</span> React</li>
@@ -232,6 +240,9 @@
               <li><span class="text-[#64ffda]">▹</span> MERN</li>
               <!-- <li><span class="text-[#64ffda]">▹</span> </li> -->
             </ul>
+            <p class="pb-[1rem]">
+              I'm continuously learning and experimenting with new technologies to stay at the cutting edge of software engineering. Welcome to my portfolio where you can explore my projects and learn more about my journey in the world of development!
+            </p>
           </div>
           <div class="col-span-2 m-[2rem] hidden lg:block">
             <div
@@ -247,11 +258,11 @@
 
     <section
       id="skill"
-      class="md:px-[12vw] md:mx-[7rem] px-[2rem] pt-[7.5rem]"
+      class="md:px-[12vw] md:mx-[7rem] md:px-[2rem] pt-[7.5rem]"
     >
       <div class="">
-        <h1 class="pb-[1rem] text-3xl font-bold  border-b-[1px] border-gray-600" data-aos-once="false" data-aos="fade-right">
-          <span class="text-[#64ffda] ">2.</span> Skills
+        <h1 class="pb-[1rem] text-3xl font-bold  border-b-[1px] border-gray-600 mx-[2rem]" data-aos-once="false" data-aos="fade-right">
+          <span class="text-[#64ffda] ">2.</span> Experience
           <!-- <span
             class="w-[60%] h-[2rem] inline-block border-b-[1px] border-gray-600"
           ></span> -->
@@ -261,103 +272,90 @@
       data-aos-easing="ease-in-back"
       data-aos-delay="150"
       data-aos-offset="0">
-      <!-- circle elememnts -->
-        <div class="w-[20rem] ">
-          <div class="col-span-2 m-[2rem] hidden lg:block">
-            <div
-              class="absolute h-[15rem] w-[15rem] border-[1px] rounded-[100rem]"
-            ></div>
-            <div
-              class="absolute mt-[2rem] ml-[3rem] h-[15rem] w-[15rem] border-[1px] border-[#64ffda] rounded-[100rem]"
-            ></div>
-          </div>
-        </div>
 
         <!-- skill levels -->
-        <div class="grid  grid-rows-6 gap-8 md:w-[auto] w-[100vw]">
-          <div class="grid grid-cols-4 md:gap-8 gap-2 place-items-startt">
-            <div
-              class="md:col-span-1 col-span-2 font-bold text-sm text-[#8892b0]"
-            >
-              React
+        <div class="container mx-auto w-full h-full">
+          <div class="relative wrap overflow-hidden md:p-10 p-2 h-full">
+            <div class="border-2-2 absolute border-opacity-20 border-[#64ffda] h-full border" style="left: 50%"></div>
+        
+            <!-- left timeline -->
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline" data-aos="flip-right" data-aos-delay="200"  data-aos-delay="200">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                <h1 class="mx-auto text-[#ccd6f6] font-semibold text-lg">3</h1>
+              </div>
+              <div class="order-1 bg-[#112240] rounded-lg shadow-xl w-5/12 md:px-6 px-2 py-4">
+                <h4 class="text-[#64ffda] text-sm">Drevol Software LLP.</h4>
+                <h2 class="text-3xl text-[#ccd6f6] font-bold hover:text-[#64ffda] text-sm mb-[1.2rem]">June 2022 - Present</h2>            
+                <ul>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Collaborating with a dynamic team to gain practical experience in software engineering.</li>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Developing proficiency in a wide range of languages and frameworks, including JavaScript, TypeScript, React, Jest, React Testing Library, Playwright, and more.</li>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Actively participating in projects that involve the application of these technologies.</li>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Acquiring valuable knowledge and skills through hands-on experience, code reviews, and mentorship.</li>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Contributing to the development and enhancement of software products by utilizing industry best practices and emerging trends in the field.</li>
+              </ul>
+              </div>
             </div>
-            <div
-              class="ml-[5px]   md:col-span-3 col-span-4 bg-[#] place-self-center border-[1px] rounded-lg w-[100%] h-[] block"
-            >
-              <div class="w-[65%] bg-[#64ffda] h-[5px]"></div>
+            
+            <!-- right timeline -->
+            <div class="mb-8 flex justify-between items-center w-full right-timeline" data-aos="flip-right" data-aos-delay="200"  data-aos-delay="200">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                <h1 class="mx-auto font-semibold text-lg text-[#ccd6f6]">2</h1>
+              </div>
+              <div class="order-1 bg-[#112240] rounded-lg shadow-xl w-5/12 md:px-6 px-2 py-4">
+                <h4 class="text-[#64ffda] text-sm">Mahendra Techno-Soft Pvt. Ltd.
+                </h4>
+                <h2 class="text-3xl text-[#ccd6f6] font-bold hover:text-[#64ffda] text-sm mb-[1.2rem]">January 2022 - April 2022</h2>               
+                <ul>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Completed a 3-month internship focused on a Django project.</li>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Gained hands-on experience working with the Django framework.</li>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Learned to effectively integrate Django with ReactJS.</li>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Developed skills in web development through practical application during the internship.</li>
+              </ul>    
+              </div>
             </div>
-          </div>
-          <div class="grid grid-cols-4 md:gap-8 gap-2 place-items-startt">
-            <div
-              class="md:col-span-1 col-span-2 font-bold text-sm text-[#8892b0]"
-            >
-              Django
+        
+            <!-- left timeline -->
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline" data-aos="flip-right" data-aos-delay="200"  data-aos-delay="200">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                <h1 class="mx-auto text-[#ccd6f6] font-semibold text-lg">1</h1>
+              </div>
+              <div class="order-1 bg-[#112240] rounded-lg shadow-xl w-5/12 md:px-6 px-2 py-4">
+                <h4 class="text-[#64ffda] text-sm">Mykarsol Technologies</h4>
+                <h2 class="text-3xl text-[#ccd6f6] font-bold hover:text-[#64ffda] text-sm mb-[1.2rem]"></h2>
+               
+                <ul>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Completed a 1-month internship focused on a Node.js project.</li>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span> Built CRUD operations for an E-commerce website using Node.js.</li>
+              </ul>
+              </div>
             </div>
-            <div
-              class="ml-[5px] col-span-3  md:col-span-3 col-span-4 bg-[#] place-self-center border-[1px] rounded-lg w-[100%] h-[] block"
-            >
-              <div class="w-[67%] bg-[#64ffda] h-[5px]"></div>
+
+            <!-- right timeline -->
+            <div class="mb-8 flex justify-between items-center w-full right-timeline" data-aos="flip-right" data-aos-delay="200"  data-aos-delay="200">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-2 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                <h1 class="mx-auto font-semibold text-lg text-[#ccd6f6]">0</h1>
+              </div>
+              <div class="order-1 bg-[#112240] rounded-lg shadow-xl w-5/12 md:px-6 px-2 py-4">
+                <h2 class="text-3xl text-[#ccd6f6] font-bold hover:text-[#64ffda] text-sm mb-[1.2rem]">EDUCATION</h2>               
+
+                <h4 class="text-[#64ffda] text-sm">Vadodara Institute of
+                  Technology, Kotambi
+                  
+                </h4>
+                <h2 class="text-3xl text-[#ccd6f6] font-bold hover:text-[#64ffda] text-sm mb-[1.2rem]">July 2018 - March 2022
+                </h2>               
+                <ul>
+                  <li class="text-sm font-medium leading-snug tracking-wide text-[#8892b0] text-opacity-100"><span class="text-[#64ffda]">▹</span>Bachelor of Technology In Information
+                    Technology</li>
+                  <li class="text-3xl text-[#ccd6f6] font-bold hover:text-[#64ffda] text-sm mb-[1.2rem]"><span class="text-[#64ffda]">▹</span> CGPA: 8.18</li>
+                   </ul>    
+              </div>
             </div>
-          </div>
-          <div class="grid grid-cols-4 md:gap-8 gap-2 place-items-startt">
-            <div
-              class="md:col-span-1 col-span-2 font-bold text-sm text-[#8892b0]"
-            >
-              JavaScript
-            </div>
-            <div
-              class="ml-[5px] col-span-3  md:col-span-3 col-span-4 bg-[#] place-self-center border-[1px] rounded-lg w-[100%] h-[] block"
-            >
-              <div class="w-[60%] bg-[#64ffda] h-[5px]"></div>
-            </div>
-          </div>
-          <div class="grid grid-cols-4 md:gap-8 gap-2 place-items-startt">
-            <div
-              class="md:col-span-1 col-span-2 font-bold text-sm text-[#8892b0]"
-            >
-              Tailwind
-            </div>
-            <div
-              class="ml-[5px] col-span-3  md:col-span-3 col-span-4 bg-[#] place-self-center border-[1px] rounded-lg w-[100%] h-[] block"
-            >
-              <div class="w-[77%] bg-[#64ffda] h-[5px]"></div>
-            </div>
-          </div>
-          <div class="grid grid-cols-4 md:gap-8 gap-2 place-items-startt">
-            <div
-              class="md:col-span-1 col-span-2 font-bold text-sm text-[#8892b0]"
-            >
-              Bootstrap
-            </div>
-            <div
-              class="ml-[5px] col-span-3  md:col-span-3 col-span-4 bg-[#] place-self-center border-[1px] rounded-lg w-[100%] h-[] block"
-            >
-              <div class="w-[80%] bg-[#64ffda] h-[5px]"></div>
-            </div>
-          </div>
-          <div class="grid grid-cols-4 md:gap-8 gap-2 place-items-startt">
-            <div
-              class="md:col-span-1 col-span-2 font-bold text-sm text-[#8892b0]"
-            >
-              CSS/CSS3
-            </div>
-            <div
-              class="ml-[5px] col-span-3  md:col-span-3 col-span-4 bg-[#] place-self-center border-[1px] rounded-lg w-[100%] h-[] block"
-            >
-              <div class="w-[75%] bg-[#64ffda] h-[5px]"></div>
-            </div>
-          </div>
-          <div class="grid grid-cols-4 md:gap-8 gap-2 place-items-start">
-            <div
-              class="md:col-span-1 col-span-2 font-bold text-sm text-[#8892b0]"
-            >
-              HTML/HTML5
-            </div>
-            <div
-              class="ml-[5px] col-span-3  md:col-span-3 col-span-4 bg-[#] place-self-center border-[1px] rounded-lg w-[100%] h-[] block"
-            >
-              <div class="w-[80%] bg-[#64ffda] h-[5px]"></div>
-            </div>
+        
           </div>
         </div>
       </div>
